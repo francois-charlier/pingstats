@@ -1,5 +1,12 @@
 export default defineNuxtConfig({
-  modules:['@vite-pwa/nuxt'],
+  modules: ['@vite-pwa/nuxt'],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   pwa:{
     manifest: {
       name: "PingStats",
