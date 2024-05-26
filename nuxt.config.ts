@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules:['@vite-pwa/nuxt'],
   pwa:{
@@ -9,34 +8,58 @@ export default defineNuxtConfig({
       theme_color: "white",
       icons: [
         {
-          src: 'icons/apple-touch-icon.png',
-          sizes: '180x180',
+          src: 'icons/icon_x48.png',
+          sizes: '48x48',
           type: 'image/png',
+          purpose: 'maskable'
         },
         {
-          src: 'icons/android-chrome-192x192.png',
-          sizes: '192x192',
+          src: 'icons/icon_x72.png',
+          sizes: '72x72',
           type: 'image/png',
+          purpose: 'maskable'
         },
         {
-          src: 'icons/android-chrome-512x512.png',
-          sizes: '512x512',
+          src: 'icons/icon_x96.png',
+          sizes: '96x96',
           type: 'image/png',
+          purpose: 'maskable'
         },
         {
-          src: 'icons/android-chrome-144x144.png',
+          src: 'icons/icon_x128.png',
+          sizes: '128x128',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: 'icons/icon_x144.png',
           sizes: '144x144',
           type: 'image/png',
+          purpose: 'any'
         },
         {
-          src: 'icons/favicon-16x16.png',
-          sizes: '16x16',
+          src: 'icons/icon_x144.png',
+          sizes: '144x144',
           type: 'image/png',
+          purpose: 'maskable'
         },
         {
-          src: 'icons/favicon-32x32.png',
-          sizes: '32x32',
+          src: 'icons/icon_x192.png',
+          sizes: '192x192',
           type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: 'icons/icon_x384.png',
+          sizes: '384x384',
+          type: 'image/png',
+          purpose: 'maskable'
+        },
+        {
+          src: 'icons/icon_x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'maskable'
         }
       ]
     },
