@@ -24,8 +24,8 @@ async function test() {
 </script>
 
 <template>
-  <img src="public/imgs/home.png" alt="home image">
   <div class="flex flex-col justify-center items-center">
+    <img src="public/imgs/home_logo.svg" alt="home image" class="w-2/3 mt-16 mb-16">
     <div class="relative mt-2 rounded-md shadow-sm">
       <label for="price" class="block text-sm font-medium leading-6 text-gray-900">Matricule</label>
       <input type="text" name="matricule" id="matricule" class="block w-75% rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6" placeholder="573..." />
